@@ -64,7 +64,6 @@ apr_status_t whois_input_filter(ap_filter_t *f, apr_bucket_brigade *b,
 	whois_conn_rec *conf=NULL;
 	const char *original=NULL;
 	char *quoted=NULL;
-	char *crlfpos=NULL;
 	unsigned long int len=1;
 
 	int alt=0;
